@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/Figureshop/css/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./css/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+    <title>Form login unitop.vn</title>
+</head>
+
+<body>
+    <div class="main">
+        <header  class="header">
+            <nav class=" header_nav">
+                <ul class="header_nav-list">
+                    <li class="header_nav-item">
+                        <a href="index.html" class="header_nav-link">
+                            <img src="./img/Black_and_Purple_Gaming_Avatar_Logo__1_-removebg-preview.png" alt="" class="header_nav-logo">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header_nav-list">
+                    <li class="header_nav-item">
+                        <a href="index.html" class="header_nav-link">
+                            <i class="fa-solid fa-house"></i>
+                            Trang chủ</a>
+                    </li>
+                    <li class="header_nav-item">
+                       
+                            <a href="" class="header_nav-link">
+                                <i class="fa-solid fa-list"></i>
+                                Danh mục</a>
+                                
+                    <li class="header_nav-item">
+                        Liên hệ hỗ trợ </li>
+                </ul>
+                <ul class="header_nav-list2">
+                    <li class="header_nav-item">
+                       
+                        <input type="text" placeholder="Tìm kiếm sản sản phẩm" class="header_nav-sech">
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="" class="header_nav-link">
+                            <span class="header_nav-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                            Giỏ hàng
+                        </a>
+                    </li>
+                    <li class="header_nav-item">
+                        <a href="" class="header_nav-link">
+                            <i class="fa-solid fa-user"></i>
+                            Đăng nhập/Đăng kí
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="wrapper">
+        <form action="" id="form-login">
+            <h1 class="form-heading"> Đăng nhập</h1>
+            <div class="form-group">
+                <i class="far fa-user"></i>
+                <input type="text" id="username" class="form-input" placeholder="Tên đăng nhập">
+                <div class="result"></div>
+            </div>
+            <div class="form-group">
+                <i class="fas fa-key"></i>
+                <input type="password" id="password" class="form-input" placeholder="Mật khẩu">
+                <div class="result"></div>
+                <div id="eye">
+                    <i class="far fa-eye"></i>
+                </div>
+            </div>
+            <button type="submit" class="form-submit">Đăng nhập</button>
+        <p id="errorMessage" class="error-message"></p>
+        <a href="dangky.html" class="form-link">
+            Đăng ký tài khoản
+            </a>
+            
+        </form>
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="./JS/JSLOGIN.JS"></script>
+<script src="/Figureshop/JS/loidangnhap.js"></script>
+</html>
